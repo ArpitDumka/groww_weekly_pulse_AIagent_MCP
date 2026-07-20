@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-GB">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta name="applicable-device" content="pc,mobile" />
+        <meta name="referrer" content="strict-origin" />
+
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/assets/favicon/favicon-180.png"
+        />
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/assets/favicon/favicon-32.png"
+        />
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/assets/favicon/favicon-16.png"
+        />
+
+        <link
+            rel="mask-icon"
+            href="/assets/favicon/favicon.svg"
+            color="#1d70f2"
+        />
+
+        <link rel="manifest" href="/manifest.json" />
+        <title>âGroww Stocks, Mutual Fund, IPO App - App Store</title><!-- HEAD_svelte-h7hqm6_START --><meta name="version" content="2622.5.0-external"><!-- HEAD_svelte-h7hqm6_END --><!-- HEAD_svelte-1frznod_START --><link rel="preconnect" href="//www.apple.com/wss/fonts" crossorigin="anonymous"><link rel="stylesheet" as="style" href="//www.apple.com/wss/fonts?families=SF+Pro,v4%7CSF+Pro+Icons,v1&amp;display=swap" type="text/css" referrerpolicy="strict-origin-when-cross-origin"><!-- HEAD_svelte-1frznod_END --><!-- HEAD_svelte-c6sxrk_START -->   <meta name="description" content="Download Groww Stocks, Mutual Fund, IPO by Billionbrains Garage Ventures Private Limited on the AppÂ Store. See screenshots, ratings and reviews, user tips andâ¦">  <link rel="canonical" href="https://apps.apple.com/in/app/groww-stocks-mutual-fund-ipo/id1404871703">        <meta name="apple:title" content="Groww Stocks, Mutual Fund, IPO App - App Store"> <meta name="apple:description" content="Download Groww Stocks, Mutual Fund, IPO by Billionbrains Garage Ventures Private Limited on the AppÂ Store. See screenshots, ratings and reviews, user tips andâ¦">   <meta property="og:title" content="Groww Stocks, Mutual Fund, IPO App - App Store"> <meta property="og:description" content="Download Groww Stocks, Mutual Fund, IPO by Billionbrains Garage Ventures Private Limited on the AppÂ Store. See screenshots, ratings and reviews, user tips andâ¦"> <meta property="og:site_name" content="App Store"> <meta property="og:url" content="https://apps.apple.com/in/app/groww-stocks-mutual-fund-ipo/id1404871703"> <meta property="og:image" content="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/c8/75/a5c8759e-9a0d-cb94-9015-bae2108ca736/Placeholder.mill/1200x630wa.jpg"> <meta property="og:image:secure_url" content="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/c8/75/a5c8759e-9a0d-cb94-9015-bae2108ca736/Placeholder.mill/1200x630wa.jpg"> <meta property="og:image:alt" content="Groww Stocks, Mutual Fund, IPO on the App Store"> <meta property="og:image:width" content="1200"> <meta property="og:image:height" content="630"> <meta property="og:image:type" content="image/jpg">  <meta property="og:locale" content="en_GB">    <meta name="twitter:title" content="Groww Stocks, Mutual Fund, IPO App - App Store"> <meta name="twitter:description" content="Download Groww Stocks, Mutual Fund, IPO by Billionbrains Garage Ventures Private Limited on the AppÂ Store. See screenshots, ratings and reviews, user tips andâ¦"> <meta name="twitter:site" content="@AppStore"> <meta name="twitter:image" content="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/c8/75/a5c8759e-9a0d-cb94-9015-bae2108ca736/Placeholder.mill/1200x630wa.jpg"> <meta name="twitter:image:alt" content="Groww Stocks, Mutual Fund, IPO on the App Store">    <script id="organization" type="application/ld+json">{"@context":"https://schema.org","@id":"https://apps.apple.com/#organization","@type":"Organization","name":"App Store","url":"https://apps.apple.com","logo":"https://apps.apple.com/assets/app-store.png","sameAs":["https://www.wikidata.org/wiki/Q368215","https://twitter.com/AppStore","https://www.instagram.com/appstore/","https://www.facebook.com/appstore/"],"parentOrganization":{"@type":"Organization","name":"Apple","@id":"https://www.apple.com/#organization","url":"https://www.apple.com/"}}</script>   <!-- HTML_TAG_START -->
+                <script id=software-application type="application/ld+json">
+                    {"@context":"https://schema.org","@type":"SoftwareApplication","name":"Groww Stocks, Mutual Fund, IPO","description":"Groww is India's No.1 Stock Broker, trusted by 4 Crore+ Indians. Open a free demat account and start investing & trading.\n\n\nGroww is your one app to invest & trade in:\n\nâ¢ Stocks\n\nâ¢ Mutual Funds\n\nâ¢ Futures and Options Trading (F&O)\n\nâ¢ Gold and Silver\n\nâ¢ Margin Trading Facility (MTF)\n\nâ¢ Commodity Derivatives: Gold, Silver, Crude Oil, Na

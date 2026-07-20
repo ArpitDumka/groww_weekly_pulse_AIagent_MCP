@@ -1,0 +1,38 @@
+{
+  "upstream_report": {},
+  "redaction_report": {
+    "reviews_processed": 24,
+    "fields_scrubbed": 0,
+    "total_redactions": 0,
+    "by_category": {},
+    "ambiguous_redactions": 0
+  },
+  "reviews": [
+    {"id": "s001", "source": "play_store", "rating": 1, "title": "", "text": "Customer support never responds to my withdrawal tickets for weeks now", "date": "2026-05-01", "app_version": "18.0", "locale": "en"},
+    {"id": "s002", "source": "play_store", "rating": 1, "title": "", "text": "Worst customer care experience, no one picks up support calls ever", "date": "2026-05-02", "app_version": "18.0", "locale": "en"},
+    {"id": "s003", "source": "play_store", "rating": 2, "title": "", "text": "Support team closed my ticket without resolving the bank transfer issue", "date": "2026-05-03", "app_version": "18.0", "locale": "en"},
+    {"id": "s004", "source": "play_store", "rating": 1, "title": "", "text": "No response from customer service after multiple emails and chat attempts", "date": "2026-05-04", "app_version": "18.0", "locale": "en"},
+    {"id": "s005", "source": "play_store", "rating": 2, "title": "", "text": "Help desk is useless, they keep asking for same documents repeatedly", "date": "2026-05-05", "app_version": "18.0", "locale": "en"},
+    {"id": "s006", "source": "play_store", "rating": 1, "title": "", "text": "Pathetic service team, still waiting for callback about my account freeze", "date": "2026-05-06", "app_version": "18.0", "locale": "en"},
+    {"id": "s007", "source": "play_store", "rating": 1, "title": "", "text": "Customer support ignored my complaint about missing refund for one month", "date": "2026-05-07", "app_version": "18.0", "locale": "en"},
+    {"id": "s008", "source": "play_store", "rating": 2, "title": "", "text": "Service quality is terrible, support chat disconnects in the middle always", "date": "2026-05-08", "app_version": "18.0", "locale": "en"},
+
+    {"id": "t001", "source": "play_store", "rating": 1, "title": "", "text": "Options trading orders fail repeatedly during market hours every single day", "date": "2026-05-01", "app_version": "18.0", "locale": "en"},
+    {"id": "t002", "source": "play_store", "rating": 1, "title": "", "text": "FNO margin calculation is wrong and caused unexpected losses in trading session", "date": "2026-05-02", "app_version": "18.0", "locale": "en"},
+    {"id": "t003", "source": "play_store", "rating": 2, "title": "", "text": "Intraday order got stuck and I could not exit my position on time today", "date": "2026-05-03", "app_version": "18.0", "locale": "en"},
+    {"id": "t004", "source": "play_store", "rating": 1, "title": "", "text": "Trading platform lags badly when placing stock orders during opening bell hours", "date": "2026-05-04", "app_version": "18.0", "locale": "en"},
+    {"id": "t005", "source": "play_store", "rating": 2, "title": "", "text": "My option position showed wrong price and trade executed at unexpected rate", "date": "2026-05-05", "app_version": "18.0", "locale": "en"},
+    {"id": "t006", "source": "play_store", "rating": 1, "title": "", "text": "Order rejection happens too often without clear reason in options segment daily", "date": "2026-05-06", "app_version": "18.0", "locale": "en"},
+    {"id": "t007", "source": "play_store", "rating": 2, "title": "", "text": "Trading charts freeze and I miss exit points during volatile market sessions often", "date": "2026-05-07", "app_version": "18.0", "locale": "en"},
+    {"id": "t008", "source": "play_store", "rating": 1, "title": "", "text": "Margin shortfall alert came late and my intraday trade was squared off unfairly", "date": "2026-05-08", "app_version": "18.0", "locale": "en"},
+
+    {"id": "p001", "source": "play_store", "rating": 2, "title": "", "text": "UPI payment failed but amount was debited from my bank account twice yesterday", "date": "2026-05-01", "app_version": "18.0", "locale": "en"},
+    {"id": "p002", "source": "play_store", "rating": 1, "title": "", "text": "Payment stuck in pending state for mutual fund SIP for over five days now", "date": "2026-05-02", "app_version": "18.0", "locale": "en"},
+    {"id": "p003", "source": "play_store", "rating": 2, "title": "", "text": "UPI transfer to wallet failed multiple times with no error message shown clearly", "date": "2026-05-03", "app_version": "18.0", "locale": "en"},
+    {"id": "p004", "source": "play_store", "rating": 1, "title": "", "text": "Autopay payment failed silently and my SIP was skipped without any notification sent", "date": "2026-05-04", "app_version": "18.0", "locale": "en"},
+    {"id": "p005", "source": "play_store", "rating": 2, "title": "", "text": "Refund for failed transaction is still pending after two weeks of waiting patiently", "date": "2026-05-05", "app_version": "18.0", "locale": "en"},
+    {"id": "p006", "source": "play_store", "rating": 1, "title": "", "text": "Payment gateway error blocks adding money to account during peak evening hours daily", "date": "2026-05-06", "app_version": "18.0", "locale": "en"},
+    {"id": "p007", "source": "play_store", "rating": 2, "title": "", "text": "UPI mandate payment failed and customer support gave no timeline for resolution yet", "date": "2026-05-07", "app_version": "18.0", "locale": "en"},
+    {"id": "p008", "source": "play_store", "rating": 1, "title": "", "text": "Bank transfer payment declined without reason and money is still not refunded back", "date": "2026-05-08", "app_version": "18.0", "locale": "en"}
+  ]
+}

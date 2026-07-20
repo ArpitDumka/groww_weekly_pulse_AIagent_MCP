@@ -1,0 +1,38 @@
+# Secrets / local config
+.env
+.env.*
+!.env.example
+token.json
+credentials.json
+**/token.json
+**/credentials.json
+
+# Virtualenvs
+.venv/
+venv/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Local run logs
+*.log
+phase3_run.log
+
+# Large / regenerable pipeline artifacts (rebuild via weekly run)
+**/data/output/
+**/data/raw/*.csv
+!**/data/raw/.gitkeep
+!**/data/output/.gitkeep
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Hugging Face / model caches (if ever local)
+.cache/

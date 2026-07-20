@@ -1,0 +1,24 @@
+App Version Name,Star Rating,Review Title,Review Text,Review Submit Date and Time,Reviewer Name,Device Language
+
+8.2.1,4,Payments,UPi payments fail often during peak trading hours,2026-05-12 10:00:00 UTC,Android User,en
+
+8.2.0,5,Statements,Monthly statements are clear and easy to download,2026-04-18 09:30:00 UTC,Another User,en
+
+8.1.9,2,KYC issues,Documents rejected without reason even after resubmitting twice,2026-03-22 14:00:00 UTC,Play User,en
+
+8.2.1,4,Payments,UPi payments fail often during peak trading hours,2026-05-12 10:00:00 UTC,Duplicate User,en
+
+8.0.0,1,Ancient,Too old for window but still posting this review here,2025-10-01 08:00:00 UTC,OldUser,en
+
+,3,Missing rating,,2026-05-01 12:00:00 UTC,Broken User,en
+
+8.2.1,not-a-number,Bad rating,Bad rating row with invalid numeric rating value,2026-05-02 12:00:00 UTC,Bad User,en
+
+8.2.1,4,Filtered out,Outside rolling window yet included for filter testing anyway,2026-01-10 11:00:00 UTC,Out User,en
+
+8.2.1,3,Short,Too short only,2026-05-03 11:00:00 UTC,Short User,en
+
+8.2.1,5,Emoji review,This application works well for my daily mutual fund investments 🙏🏻,2026-05-04 11:00:00 UTC,Emoji User,en
+
+8.2.1,4,Hindi review,यह ऐप बहुत अच्छा है पैसे का प्रबंधन आसान है,2026-05-05 11:00:00 UTC,Hindi User,hi
+

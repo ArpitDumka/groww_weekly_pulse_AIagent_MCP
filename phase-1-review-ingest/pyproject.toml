@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "groww-pulse-ingest"
+version = "0.1.0"
+description = "Phase 1 — review ingestion and normalization for Groww Weekly Pulse"
+requires-python = ">=3.11"
+dependencies = [
+    "langdetect>=1.0.9",
+    "pydantic>=2.0",
+    "pydantic-settings>=2.0",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+fetch = [
+    "google-play-scraper>=1.2.7",
+    "requests>=2.31",
+]
+
+[project.scripts]
+run-ingest = "groww_pulse.phases.phase_1_ingestion.run_ingest:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

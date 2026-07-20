@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "groww-pulse-summarize"
+version = "0.1.0"
+description = "Phase 3 — theme clustering and Groq summarization for Groww Weekly Pulse"
+requires-python = ">=3.11"
+dependencies = [
+    "groq>=0.9",
+    "numpy>=1.26",
+    "pydantic>=2.0",
+    "pydantic-settings>=2.0",
+    "python-dotenv>=1.0",
+    "scikit-learn>=1.4",
+    "sentence-transformers>=3.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+run-summarize = "groww_pulse.phases.phase_3_summarization.run_summarize:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

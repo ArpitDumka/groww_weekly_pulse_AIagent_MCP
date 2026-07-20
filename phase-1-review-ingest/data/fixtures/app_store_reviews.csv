@@ -1,0 +1,24 @@
+App Version,Rating,Title,Review,Date,Reviewer Name,Territory
+
+8.2.1,5,Great app,Love the onboarding flow and the clean dashboard design,2026-05-10,John Doe,IN
+
+8.2.0,2,KYC pain,KYC verification stuck for days without any status update,2026-04-20,Jane Smith,IN
+
+8.1.0,1,,Withdrawal failed again even after multiple attempts yesterday,2026-03-25,User123,IN
+
+8.2.1,5,Great app,Love the onboarding flow and the clean dashboard design,2026-05-10,Duplicate User,IN
+
+8.0.0,4,Old review,Still relevant but out of window for historical testing,2025-11-01,Old User,IN
+
+8.2.1,invalid,Bad row,Missing good rating in this malformed export row,2026-05-01,Bad User,IN
+
+8.2.1,3,Empty body, ,2026-05-01,Empty User,IN
+
+8.2.1,4,Filtered out,Should be filtered by window in legacy tests anyway,2026-01-05,Out User,IN
+
+8.2.1,2,Short,Too short only,2026-05-06,Short User,IN
+
+8.2.1,5,Emoji review,This application works well for my daily mutual fund investments 🙏🏻,2026-05-07,Emoji User,IN
+
+8.2.1,4,Hindi review,यह ऐप बहुत अच्छा है पैसे का प्रबंधन आसान है,2026-05-08,Hindi User,IN
+

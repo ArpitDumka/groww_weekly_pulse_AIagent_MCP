@@ -1,0 +1,10 @@
+{
+  "servers": {
+    "google_mcp": {
+      "base_url": "http://127.0.0.1:8000",
+      "append_tool": "/append_to_doc",
+      "draft_tool": "/create_email_draft",
+      "notes": "ArpitDumka/Google-mcp-server FastAPI (uvicorn server:app). Streamlit UI is manual-only."
+    }
+  }
+}

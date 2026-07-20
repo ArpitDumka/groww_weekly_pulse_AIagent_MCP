@@ -1,0 +1,92 @@
+{
+  "reviews": [
+    {
+      "id": "pii001email",
+      "source": "app_store",
+      "rating": 2,
+      "title": "Contact me",
+      "text": "Please email support at user.name+tag@example.com for help with KYC.",
+      "date": "2026-05-01",
+      "app_version": "8.2.1",
+      "locale": "IN"
+    },
+    {
+      "id": "pii002phone",
+      "source": "play_store",
+      "rating": 1,
+      "title": "Call back",
+      "text": "Nobody called back on +91-9876543210 or (080) 5555-1234.",
+      "date": "2026-05-02",
+      "app_version": null,
+      "locale": "en"
+    },
+    {
+      "id": "pii003handle",
+      "source": "app_store",
+      "rating": 3,
+      "title": "@growwuser complaint",
+      "text": "My username is secret_trader_99 and @support_team ignored me.",
+      "date": "2026-05-03",
+      "app_version": "8.2.0",
+      "locale": "IN"
+    },
+    {
+      "id": "pii004ids",
+      "source": "play_store",
+      "rating": 2,
+      "title": "Order stuck",
+      "text": "Order ORD-998877665544 still pending. Device id f47ac10b-58cc-4372-a567-0e02b2c3d479.",
+      "date": "2026-05-04",
+      "app_version": null,
+      "locale": "en"
+    },
+    {
+      "id": "pii005ambiguous",
+      "source": "app_store",
+      "rating": 2,
+      "title": "Reference",
+      "text": "My folio number ACCT9988776655 is wrong in the app.",
+      "date": "2026-05-05",
+      "app_version": "8.1.9",
+      "locale": "IN"
+    },
+    {
+      "id": "clean001version",
+      "source": "play_store",
+      "rating": 4,
+      "title": "Version ok",
+      "text": "Updated to v8.2.1 and payments work again. Great onboarding flow.",
+      "date": "2026-05-06",
+      "app_version": "8.2.1",
+      "locale": "en"
+    },
+    {
+      "id": "clean002plain",
+      "source": "app_store",
+      "rating": 5,
+      "title": "Statements",
+      "text": "Monthly statements are clear and withdrawals are fast.",
+      "date": "2026-05-07",
+      "app_version": "8.2.1",
+      "locale": "IN"
+    }
+  ],
+  "must_not_contain": [
+    "user.name+tag@example.com",
+    "9876543210",
+    "5555-1234",
+    "secret_trader_99",
+    "@support_team",
+    "@growwuser",
+    "ORD-998877665544",
+    "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "ACCT9988776655"
+  ],
+  "must_preserve": [
+    "v8.2.1",
+    "onboarding flow",
+    "Monthly statements",
+    "withdrawals are fast",
+    "payments work again"
+  ]
+}

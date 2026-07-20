@@ -1,0 +1,16 @@
+{
+  "servers": {
+    "google_docs": {
+      "command": "npx",
+      "args": ["-y", "@your-org/google-docs-mcp"],
+      "expected_tools": ["create_document", "update_document"],
+      "create_tool": "create_document"
+    },
+    "gmail": {
+      "command": "npx",
+      "args": ["-y", "@your-org/gmail-mcp"],
+      "expected_tools": ["create_draft"],
+      "create_tool": "create_draft"
+    }
+  }
+}
