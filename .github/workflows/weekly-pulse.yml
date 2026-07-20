@@ -30,10 +30,15 @@ jobs:
   weekly-pulse:
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout pulse pipeline
         uses: actions/checkout@v4
+        with:
+          # Needed so the dashboard commit can push back to main (Vercel redeploy).
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -108,6 +113,25 @@ jobs:
           python phase-5-orchestration/scripts/run_weekly_pulse.py \
             ${{ inputs.dry_run && '--dry-run' || '' }}
 
+      # Path 2: static dashboard → public/index.html → push → Vercel redeploys
+      - name: Export dashboard HTML for Vercel
+        run: |
+          python phase-3-theme-summarize/scripts/serve_pulse.py \
+            --pulse phase-3-theme-summarize/data/output/pulse.json \
+            --export public/index.html
+
+      - name: Commit and push dashboard (triggers Vercel)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/index.html
+          if git diff --staged --quiet; then
+            echo "Dashboard HTML unchanged — skip push"
+            exit 0
+          fi
+          git commit -m "chore: update public dashboard after weekly pulse [skip ci]"
+          git push origin HEAD:${{ github.ref_name }}
+
       - name: Upload run artifacts
         if: always()
         uses: actions/upload-artifact@v4
@@ -117,5 +141,6 @@ jobs:
             phase-1-review-ingest/data/output/corpus.json
             phase-3-theme-summarize/data/output/pulse.json
             phase-4-mcp-deliver/data/output/delivery_result.json
+            public/index.html
             mcp-server.log
           if-no-files-found: warn
