@@ -682,6 +682,11 @@ def main() -> None:
     parser.add_argument("--port", type=int, default=8765)
     parser.add_argument("--no-browser", action="store_true")
     parser.add_argument("--refresh", action="store_true", help="Rebuild dashboard JSON from pulse.json")
+    parser.add_argument(
+        "--export",
+        type=Path,
+        help="Write a static dashboard HTML file and exit (for Vercel / GitHub Pages).",
+    )
     args = parser.parse_args()
 
     if not args.pulse.is_file():
@@ -696,6 +701,15 @@ def main() -> None:
         source = args.pulse.parent / "pulse.json"
         if not source.is_file():
             source = args.pulse
+
+    if args.export is not None:
+        read_path = source if source.is_file() else args.pulse
+        payload = load_payload(read_path)
+        html = render_html(payload)
+        args.export.parent.mkdir(parents=True, exist_ok=True)
+        args.export.write_text(html, encoding="utf-8")
+        print(f"Exported static dashboard to {args.export.resolve()}")
+        return
 
     # Live reload: re-render whenever the pulse file changes on disk, so the
     # dashboard reflects the latest weekly run without a manual restart.

@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Groww Weekly Review Pulse</title>
+  <style>
+    :root {
+      --bg: #0f1419;
+      --panel: #1a2332;
+      --panel-2: #243044;
+      --text: #f1f5f9;
+      --muted: #94a3b8;
+      --line: #334155;
+      --accent: #2dd4bf;
+      --accent-dim: #0d9488;
+      --warn: #fbbf24;
+      --danger: #f87171;
+      --ok: #4ade80;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    .wrap { max-width: 1200px; margin: 0 auto; padding: 24px 20px 56px; }
+    header {
+      background: linear-gradient(135deg, #1a2332 0%, #0f766e22 100%);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 28px 32px;
+      margin-bottom: 20px;
+    }
+    header h1 { margin: 0 0 6px; font-size: 1.85rem; letter-spacing: -0.02em; }
+    header p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+    .tabs {
+      display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px;
+    }
+    .tab {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      color: var(--muted);
+      padding: 10px 18px;
+      border-radius: 999px;
+      cursor: pointer;
+      font-size: 0.88rem;
+      font-weight: 600;
+      transition: all 0.15s;
+    }
+    .tab:hover { border-color: var(--accent); color: var(--text); }
+    .tab.active { background: var(--accent-dim); border-color: var(--accent); color: #fff; }
+    .panel { display: none; }
+    .panel.active { display: block; }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+    .stat {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 16px;
+    }
+    .stat label {
+      display: block; font-size: 0.72rem; text-transform: uppercase;
+      letter-spacing: 0.06em; color: var(--muted); margin-bottom: 4px;
+    }
+    .stat strong { font-size: 1.4rem; }
+    .stat small { display: block; color: var(--muted); font-size: 0.8rem; margin-top: 2px; }
+    .grid-2 { display: grid; gap: 16px; }
+    @media (min-width: 900px) { .grid-2 { grid-template-columns: 1fr 1fr; } }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 20px 22px;
+      margin-bottom: 16px;
+    }
+    .card h2 { margin: 0 0 14px; font-size: 1.1rem; }
+    .theme-card { transition: border-color 0.2s, box-shadow 0.2s; }
+    .theme-card.highlight { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+    .theme-head { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; flex-wrap: wrap; }
+    .badge {
+      background: #0d948833; color: var(--accent);
+      font-size: 0.7rem; font-weight: 700; padding: 4px 10px;
+      border-radius: 999px; text-transform: uppercase;
+    }
+    .theme-card h2 { margin: 0; font-size: 1.25rem; }
+    .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+    .chip {
+      font-size: 0.78rem; padding: 4px 10px; border-radius: 6px;
+      background: var(--panel-2); color: var(--muted);
+    }
+    .chip-warn { background: #fbbf2422; color: var(--warn); }
+    .summary { margin: 0 0 12px; color: #cbd5e1; }
+    blockquote {
+      margin: 0 0 10px; padding: 14px 16px;
+      border-left: 3px solid var(--accent);
+      background: var(--panel-2);
+      border-radius: 0 8px 8px 0;
+      font-style: italic; color: #e2e8f0; font-size: 0.95rem;
+    }
+    .quote-actions { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; flex-wrap: wrap; }
+    .meta-line { font-size: 0.82rem; color: var(--muted); }
+    code { font-family: ui-monospace, monospace; font-size: 0.8rem; }
+    .btn {
+      background: var(--panel-2); border: 1px solid var(--line);
+      color: var(--text); padding: 6px 12px; border-radius: 8px;
+      cursor: pointer; font-size: 0.8rem;
+    }
+    .btn:hover { border-color: var(--accent); }
+    .action { border-top: 1px solid var(--line); padding-top: 12px; }
+    .action strong { color: var(--accent); font-size: 0.85rem; }
+    .bar-row { margin-bottom: 10px; }
+    .bar-label { display: flex; justify-content: space-between; font-size: 0.82rem; margin-bottom: 4px; }
+    .bar-val { color: var(--muted); }
+    .bar-track { height: 8px; background: var(--panel-2); border-radius: 4px; overflow: hidden; }
+    .bar-fill { height: 100%; background: linear-gradient(90deg, var(--accent-dim), var(--accent)); border-radius: 4px; transition: width 0.4s; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+    th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+    th { color: var(--muted); font-size: 0.72rem; text-transform: uppercase; }
+    .cluster-row { cursor: pointer; transition: background 0.15s; }
+    .cluster-row:hover { background: var(--panel-2); }
+    .cluster-row.active { background: #0d948822; }
+    .inline-bar { height: 4px; background: var(--panel-2); border-radius: 2px; margin-bottom: 4px; max-width: 80px; }
+    .inline-bar div { height: 100%; background: var(--accent); border-radius: 2px; }
+    .sev-pill { padding: 2px 8px; border-radius: 4px; font-size: 0.8rem; }
+    .gauge { height: 10px; background: var(--panel-2); border-radius: 5px; overflow: hidden; margin-top: 8px; }
+    .gauge-fill { height: 100%; background: var(--ok); border-radius: 5px; }
+    .rec-grid { display: grid; gap: 12px; }
+    @media (min-width: 768px) { .rec-grid { grid-template-columns: 1fr 1fr; } }
+    .rec-card {
+      background: var(--panel-2); border: 1px solid var(--line);
+      border-radius: 12px; padding: 16px; position: relative;
+    }
+    .rec-groq { border-left: 3px solid var(--accent); }
+    .rec-urgent { border-left: 3px solid var(--danger); }
+    .rec-signal { border-left: 3px solid var(--warn); }
+    .rec-ops { border-left: 3px solid var(--ok); }
+    .rec-priority { position: absolute; top: 12px; right: 12px; font-size: 0.75rem; color: var(--muted); }
+    .rec-card h3 { margin: 0 0 8px; font-size: 0.95rem; }
+    .rec-card p { margin: 0; font-size: 0.88rem; color: #cbd5e1; }
+    .footer { margin-top: 24px; color: var(--muted); font-size: 0.85rem; }
+    .split-bar { display: flex; height: 12px; border-radius: 6px; overflow: hidden; margin: 10px 0; }
+    .split-play { background: var(--accent); }
+    .split-app { background: #6366f1; }
+    .legend { display: flex; gap: 16px; font-size: 0.82rem; color: var(--muted); }
+    .legend span::before {
+      content: ''; display: inline-block; width: 10px; height: 10px;
+      border-radius: 2px; margin-right: 6px; vertical-align: middle;
+    }
+    .legend .lp::before { background: var(--accent); }
+    .legend .la::before { background: #6366f1; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Groww Weekly Review Pulse</h1>
+      <p>Week of 2026-07-13 · 21,244 reviews · sentence-transformers/all-MiniLM-L6-v2</p>
+      <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:12px;align-items:center">
+        <span style="background:#1f2937;border:1px solid #334155;border-radius:999px;padding:4px 12px;font-size:0.85rem">Corpus total: <strong>21,244</strong> reviews</span>
+        <span style="background:#4ade8022;color:#4ade80;border:1px solid #4ade8055;border-radius:999px;padding:4px 12px;font-size:0.85rem;font-weight:600">+544 new this run</span>
+        <span style="background:#1f2937;border:1px solid #334155;border-radius:999px;padding:4px 12px;font-size:0.85rem">Run #2 · 20,700 &rarr; 21,244</span>
+        <span style="background:#1f2937;border:1px solid #334155;border-radius:999px;padding:4px 12px;font-size:0.85rem">Updated 2026-07-14</span>
+      </div>
+    </header>
+
+    <nav class="tabs" role="tablist">
+      <button class="tab active" data-tab="overview" type="button">Overview</button>
+      <button class="tab" data-tab="themes" type="button">Themes &amp; quotes</button>
+      <button class="tab" data-tab="clusters" type="button">Clusters</button>
+      <button class="tab" data-tab="analytics" type="button">Analytics</button>
+      <button class="tab" data-tab="recommendations" type="button">Recommendations</button>
+      <button class="tab" data-tab="pipeline" type="button">Pipeline</button>
+    </nav>
+
+    <section id="overview" class="panel active">
+      <div class="stats">
+        <div class="stat"><label>Reviews</label><strong>21,244</strong><small>scrubbed corpus</small></div>
+        <div class="stat"><label>Avg rating</label><strong>3.16</strong><small>all reviews</small></div>
+        <div class="stat"><label>Low 1–2★</label><strong>41.9%</strong><small>8,897 reviews</small></div>
+        <div class="stat"><label>High 4–5★</label><strong>51.9%</strong><small>11,036 reviews</small></div>
+        <div class="stat"><label>Pulse words</label><strong>177</strong><small>of 250 max</small></div>
+        <div class="stat"><label>Groq</label><strong>1 call(s)</strong><small>3,003 tokens est.</small></div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h2>Store split</h2>
+          <div class="split-bar">
+            <div class="split-play" style="width:96%"></div>
+            <div class="split-app" style="width:4%"></div>
+          </div>
+          <div class="legend">
+            <span class="lp">Play Store 20,304 (95.6%)</span>
+            <span class="la">App Store 940 (4.4%)</span>
+          </div>
+        </div>
+        <div class="card">
+          <h2>Groq token budget</h2>
+          <p style="margin:0;color:var(--muted);font-size:0.88rem">3,003 / 8,000 tokens · llama-3.3-70b-versatile</p>
+          <div class="gauge"><div class="gauge-fill" style="width:38%"></div></div>
+          <p style="margin:8px 0 0;font-size:0.82rem;color:var(--muted)">Validation: pass · Dry run: False</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Cluster volume (all 5 themes)</h2>
+        
+        <div class="bar-row">
+          <div class="bar-label"><span>Cluster 0</span><span class="bar-val">6,667 · 2.4★</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:100%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label"><span>Cluster 4</span><span class="bar-val">4,123 · 4.3★</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:62%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label"><span>Cluster 1</span><span class="bar-val">3,780 · 1.8★</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:57%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label"><span>Cluster 3</span><span class="bar-val">3,392 · 3.3★</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:51%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label"><span>Cluster 2</span><span class="bar-val">3,282 · 4.7★</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:49%"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="themes" class="panel">
+      <div class="grid" style="display:grid;gap:16px">
+        <article class="card theme-card" data-cluster="0">
+          <div class="theme-head">
+            <span class="badge">Theme 1</span>
+            <h2>Poor Customer Support</h2>
+          </div>
+          <div class="chips">
+            <span class="chip">6,667 reviews (31.4%)</span>
+            <span class="chip">avg 2.4★</span>
+            <span class="chip chip-warn">59% severity</span>
+            <span class="chip">cluster 0</span>
+          </div>
+          <p class="summary">Customers are experiencing difficulties with customer support, including long wait times and</p>
+          <blockquote id="quote-1">Grow has worst customer service and worst technology to handle switching of mutual fund ! Kindly don’t use this app ! I had requested for switching of one of my SBI mutual fund which is still pending and worst part is their customer support ! Their chat agents just reply in this format - when u open chat…</blockquote>
+          <div class="quote-actions">
+            <button type="button" class="btn" onclick="copyText('quote-1')">Copy quote</button>
+            <span class="meta-line">ID: <code>45ac44d979320bdd</code></span>
+          </div>
+          <div class="action">
+            <strong>Recommended action</strong>
+            <p>Implement a more efficient customer support system to reduce wait times and impr</p>
+          </div>
+        </article>
+        <article class="card theme-card" data-cluster="1">
+          <div class="theme-head">
+            <span class="badge">Theme 2</span>
+            <h2>Technical Issues</h2>
+          </div>
+          <div class="chips">
+            <span class="chip">3,780 reviews (17.8%)</span>
+            <span class="chip">avg 1.8★</span>
+            <span class="chip chip-warn">79% severity</span>
+            <span class="chip">cluster 1</span>
+          </div>
+          <p class="summary">Users are encountering various technical problems, such as app glitches, slow servers,</p>
+          <blockquote id="quote-2">Due to application glitch and not support during market hours I have booked big loss... And her customer support also very bad not responding</blockquote>
+          <div class="quote-actions">
+            <button type="button" class="btn" onclick="copyText('quote-2')">Copy quote</button>
+            <span class="meta-line">ID: <code>916cb8f769e34b84</code></span>
+          </div>
+          <div class="action">
+            <strong>Recommended action</strong>
+            <p>Conduct regular technical audits to identify and resolve app glitches and server</p>
+          </div>
+        </article>
+        <article class="card theme-card" data-cluster="3">
+          <div class="theme-head">
+            <span class="badge">Theme 3</span>
+            <h2>High Fees and Charges</h2>
+          </div>
+          <div class="chips">
+            <span class="chip">3,392 reviews (16.0%)</span>
+            <span class="chip">avg 3.3★</span>
+            <span class="chip ">39% severity</span>
+            <span class="chip">cluster 3</span>
+          </div>
+          <p class="summary">Customers are expressing dissatisfaction with the high fees and charges associated with</p>
+          <blockquote id="quote-3">Everything all is well but buying &amp; sale % fee is very high ...pls decrease % buying &amp; sale...</blockquote>
+          <div class="quote-actions">
+            <button type="button" class="btn" onclick="copyText('quote-3')">Copy quote</button>
+            <span class="meta-line">ID: <code>5b67eeb6e228648e</code></span>
+          </div>
+          <div class="action">
+            <strong>Recommended action</strong>
+            <p>Review and adjust the fee structure to ensure it is competitive and transparent</p>
+          </div>
+        </article></div>
+    </section>
+
+    <section id="clusters" class="panel">
+      <div class="card">
+        <h2>Cluster ranking · click a row to highlight matching theme</h2>
+        <p style="margin:-8px 0 14px;color:var(--muted);font-size:0.88rem">Ranked by size × (1 + severity). Top 3 feed the weekly pulse.</p>
+        <table>
+          <thead>
+            <tr><th>Rank</th><th>ID</th><th>Size</th><th>Avg ★</th><th>Severity</th><th>Score</th><th>In pulse</th></tr>
+          </thead>
+          <tbody>
+        <tr class="cluster-row" data-cluster="0" onclick="highlightCluster(0)">
+          <td>1</td>
+          <td><strong>0</strong></td>
+          <td>
+            <div class="inline-bar"><div style="width:100%"></div></div>
+            6,667
+          </td>
+          <td>2.43</td>
+          <td><span class="sev-pill" data-sev="0.588">58.8%</span></td>
+          <td>10588.0</td>
+          <td>yes</td>
+        </tr>
+        <tr class="cluster-row" data-cluster="1" onclick="highlightCluster(1)">
+          <td>2</td>
+          <td><strong>1</strong></td>
+          <td>
+            <div class="inline-bar"><div style="width:57%"></div></div>
+            3,780
+          </td>
+          <td>1.75</td>
+          <td><span class="sev-pill" data-sev="0.787">78.7%</span></td>
+          <td>6755.0</td>
+          <td>yes</td>
+        </tr>
+        <tr class="cluster-row" data-cluster="3" onclick="highlightCluster(3)">
+          <td>3</td>
+          <td><strong>3</strong></td>
+          <td>
+            <div class="inline-bar"><div style="width:51%"></div></div>
+            3,392
+          </td>
+          <td>3.27</td>
+          <td><span class="sev-pill" data-sev="0.392">39.2%</span></td>
+          <td>4722.0</td>
+          <td>yes</td>
+        </tr>
+        <tr class="cluster-row" data-cluster="4" onclick="highlightCluster(4)">
+          <td>4</td>
+          <td><strong>4</strong></td>
+          <td>
+            <div class="inline-bar"><div style="width:62%"></div></div>
+            4,123
+          </td>
+          <td>4.28</td>
+          <td><span class="sev-pill" data-sev="0.134">13.4%</span></td>
+          <td>4674.0</td>
+          <td>—</td>
+        </tr>
+        <tr class="cluster-row" data-cluster="2" onclick="highlightCluster(2)">
+          <td>5</td>
+          <td><strong>2</strong></td>
+          <td>
+            <div class="inline-bar"><div style="width:49%"></div></div>
+            3,282
+          </td>
+          <td>4.73</td>
+          <td><span class="sev-pill" data-sev="0.037">3.7%</span></td>
+          <td>3402.0</td>
+          <td>—</td>
+        </tr></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="analytics" class="panel">
+      <div class="grid-2">
+        <div class="card">
+          <h2>Rating distribution</h2>
+          
+        <div class="bar-row">
+          <div class="bar-label"><span>1★</span><span class="bar-val">7,858</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:87%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label"><span>2★</span><span class="bar-val">1,039</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:11%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label"><span>3★</span><span class="bar-val">1,311</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:14%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label"><span>4★</span><span class="bar-val">1,980</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:22%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label"><span>5★</span><span class="bar-val">9,056</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:100%"></div></div>
+        </div>
+        </div>
+        <div class="card">
+          <h2>Keyword signals (1–2★ reviews)</h2>
+          
+        <div class="bar-row">
+          <div class="bar-label"><span>Trading / F&amp;O</span><span class="bar-val">2,184 hits</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:100%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label"><span>Customer support</span><span class="bar-val">1,833 hits</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:84%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label"><span>App stability</span><span class="bar-val">1,107 hits</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:51%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label"><span>Fees / charges</span><span class="bar-val">722 hits</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:33%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label"><span>Payments / UPI</span><span class="bar-val">642 hits</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:29%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label"><span>Withdrawals</span><span class="bar-val">440 hits</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:20%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label"><span>KYC / Onboarding</span><span class="bar-val">226 hits</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:10%"></div></div>
+        </div>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Monthly review volume (recent)</h2>
+        
+        <div class="bar-row">
+          <div class="bar-label"><span>2025-12</span><span class="bar-val">749</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:43%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label"><span>2026-01</span><span class="bar-val">1,752</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:100%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label"><span>2026-02</span><span class="bar-val">1,294</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:74%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label"><span>2026-03</span><span class="bar-val">983</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:56%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label"><span>2026-04</span><span class="bar-val">687</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:39%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label"><span>2026-05</span><span class="bar-val">783</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:45%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label"><span>2026-06</span><span class="bar-val">384</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:22%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label"><span>2026-07</span><span class="bar-val">513</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:29%"></div></div>
+        </div>
+        <p style='margin:12px 0 0;font-size:0.85rem;color:var(--muted)'>Date range: 2018-08-02 → 2026-07-13</p>
+      </div>
+    </section>
+
+    <section id="recommendations" class="panel">
+      <div class="card">
+        <h2>Prioritized recommendations</h2>
+        <p style="margin:-8px 0 16px;color:var(--muted);font-size:0.88rem">Combines Groq action ideas with data-driven signals from clusters and low-rated keyword analysis.</p>
+        <div class="rec-grid">
+        <div class="rec-card rec-groq">
+          <span class="rec-priority">#1</span>
+          <h3>Action from pulse</h3>
+          <p>Implement a more efficient customer support system to reduce wait times and impr</p>
+        </div>
+        <div class="rec-card rec-groq">
+          <span class="rec-priority">#2</span>
+          <h3>Action from pulse</h3>
+          <p>Conduct regular technical audits to identify and resolve app glitches and server</p>
+        </div>
+        <div class="rec-card rec-groq">
+          <span class="rec-priority">#3</span>
+          <h3>Action from pulse</h3>
+          <p>Review and adjust the fee structure to ensure it is competitive and transparent</p>
+        </div>
+        <div class="rec-card rec-urgent">
+          <span class="rec-priority">#4</span>
+          <h3>High-severity cluster #0</h3>
+          <p>6,667 reviews · avg 2.4★ · 59% are 1–2★. Prioritize engineering + support playbooks for this bucket.</p>
+        </div>
+        <div class="rec-card rec-urgent">
+          <span class="rec-priority">#5</span>
+          <h3>High-severity cluster #1</h3>
+          <p>3,780 reviews · avg 1.8★ · 79% are 1–2★. Prioritize engineering + support playbooks for this bucket.</p>
+        </div>
+        <div class="rec-card rec-signal">
+          <span class="rec-priority">#6</span>
+          <h3>Strongest keyword signal (1–2★ reviews)</h3>
+          <p>“Trading / F&amp;O” appears in 2,184 low-rated reviews — align sprint goals with this pain area.</p>
+        </div>
+        <div class="rec-card rec-signal">
+          <span class="rec-priority">#7</span>
+          <h3>Negative sentiment volume</h3>
+          <p>41.9% of reviews are 1–2★ (8,897 reviews). Consider a dedicated reliability/support OKR this quarter.</p>
+        </div>
+        <div class="rec-card rec-ops">
+          <span class="rec-priority">#8</span>
+          <h3>Groq budget headroom</h3>
+          <p>Last run used ~3,003 / 8,000 estimated tokens (38%). Safe for weekly runs on free tier.</p>
+        </div></div>
+      </div>
+    </section>
+
+    <section id="pipeline" class="panel">
+      <div class="grid-2">
+        <div class="card">
+          <h2>Ingestion funnel</h2>
+          
+        <div class="bar-row">
+          <div class="bar-label"><span>Fetched (raw)</span><span class="bar-val">3,000</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:14%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label"><span>After filters</span><span class="bar-val">21,244</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:100%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label"><span>PII scrubbed</span><span class="bar-val">21,244</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:100%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label"><span>Clustered</span><span class="bar-val">21,244</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:100%"></div></div>
+        </div>
+        </div>
+        <div class="card">
+          <h2>PII redaction (Phase 2)</h2>
+          <div class="stats" style="margin:0">
+            <div class="stat"><label>Reviews</label><strong>21244</strong></div>
+            <div class="stat"><label>Fields scrubbed</label><strong>818</strong></div>
+            <div class="stat"><label>Redactions</label><strong>942</strong></div>
+          </div>
+          <p style='margin-top:12px;font-size:0.85rem;color:var(--muted)'>Filtered out: 1,875 too short · 89 emoji · 44 non-English</p>
+        </div>
+      </div>
+    </section>
+
+    <p class="footer">Generated 2026-07-14T04:05:00.072306+05:30 · Cluster k=5 · Top theme IDs [0, 1, 3]</p>
+  </div>
+
+  <script>
+    document.querySelectorAll('.tab').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+        btn.classList.add('active');
+        document.getElementById(btn.dataset.tab).classList.add('active');
+      });
+    });
+
+    function highlightCluster(id) {
+      document.querySelectorAll('.cluster-row').forEach(r => r.classList.remove('active'));
+      document.querySelectorAll('.theme-card').forEach(c => c.classList.remove('highlight'));
+      const row = document.querySelector('.cluster-row[data-cluster="' + id + '"]');
+      if (row) row.classList.add('active');
+      const card = document.querySelector('.theme-card[data-cluster="' + id + '"]');
+      if (card) {
+        card.classList.add('highlight');
+        document.querySelector('[data-tab="themes"]').click();
+        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+
+    function copyText(id) {
+      const el = document.getElementById(id);
+      if (!el) return;
+      navigator.clipboard.writeText(el.innerText).then(() => {
+        const btn = event.target;
+        const orig = btn.textContent;
+        btn.textContent = 'Copied!';
+        setTimeout(() => btn.textContent = orig, 1500);
+      });
+    }
+
+    document.querySelectorAll('.sev-pill').forEach(pill => {
+      const sev = parseFloat(pill.dataset.sev);
+      if (sev >= 0.6) pill.style.background = '#f8717122', pill.style.color = '#f87171';
+      else if (sev >= 0.35) pill.style.background = '#fbbf2422', pill.style.color = '#fbbf24';
+      else pill.style.background = '#4ade8022', pill.style.color = '#4ade80';
+    });
+  </script>
+</body>
+</html>

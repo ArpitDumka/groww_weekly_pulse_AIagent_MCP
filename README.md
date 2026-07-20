@@ -136,6 +136,17 @@ python scripts/serve_pulse.py --pulse data/output/pulse.json --port 8765
 
 Open [http://127.0.0.1:8765](http://127.0.0.1:8765). The dashboard **live-reloads** when `pulse.json` changes and shows corpus total + “new this run” counts when accumulation metadata is present.
 
+### 6b. Public dashboard on Vercel (static)
+
+The same dashboard can be exported as static HTML (no Python on Vercel):
+
+```bash
+cd phase-3-theme-summarize
+python scripts/serve_pulse.py --pulse data/output/pulse.json --export ../public/index.html
+```
+
+Then deploy the repo on [vercel.com](https://vercel.com) with **Root Directory** = repo root and **Output Directory** = `public` (see `vercel.json`). Connect the GitHub repo — each push to `main` that updates `public/index.html` refreshes the public URL.
+
 ### 7. Run phases individually (optional)
 
 ```bash
