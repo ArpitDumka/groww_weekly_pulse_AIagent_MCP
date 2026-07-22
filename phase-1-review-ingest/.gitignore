@@ -3,5 +3,8 @@
 __pycache__/
 *.py[cod]
 .pytest_cache/
-data/output/
-data/raw/
+data/output/*
+!data/output/.gitkeep
+!data/output/corpus.json
+data/raw/*
+!data/raw/.gitkeep
