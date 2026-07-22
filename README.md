@@ -123,7 +123,7 @@ Useful flags:
 | `--count N` | Reviews to fetch per store |
 | `--week-of YYYY-MM-DD` | Reporting week anchor (default: most recent Monday) |
 
-Each weekly run **merges** new reviews into `phase-1-review-ingest/data/output/corpus.json` (deduped by review id), then re-scrubs and re-summarizes the **full** corpus.
+Each weekly run **merges** new reviews into `phase-1-review-ingest/data/output/corpus.json` (deduped by review id), then re-scrubs and re-summarizes the **full** corpus. That corpus file is **committed to the repo** and updated by GitHub Actions after every run, so local and CI share one growing history (not separate counters).
 
 ### 6. View the dashboard (localhost:8765)
 

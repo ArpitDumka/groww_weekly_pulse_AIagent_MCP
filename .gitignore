@@ -26,6 +26,9 @@ phase3_run.log
 **/data/raw/*.csv
 !**/data/raw/.gitkeep
 !**/data/output/.gitkeep
+# Persistent cumulative corpus — must survive across Actions runs and local runs.
+# Updated (append-only merge) on every weekly job and pushed back to the repo.
+!phase-1-review-ingest/data/output/corpus.json
 
 # OS / IDE
 .DS_Store

@@ -120,16 +120,16 @@ jobs:
             --pulse phase-3-theme-summarize/data/output/pulse.json \
             --export public/index.html
 
-      - name: Commit and push dashboard (triggers Vercel)
+      - name: Commit and push corpus + dashboard (triggers Vercel)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/index.html
+          git add public/index.html phase-1-review-ingest/data/output/corpus.json
           if git diff --staged --quiet; then
-            echo "Dashboard HTML unchanged — skip push"
+            echo "Corpus/dashboard unchanged — skip push"
             exit 0
           fi
-          git commit -m "chore: update public dashboard after weekly pulse [skip ci]"
+          git commit -m "chore: append corpus + update public dashboard after weekly pulse [skip ci]"
           git push origin HEAD:${{ github.ref_name }}
 
       - name: Upload run artifacts
