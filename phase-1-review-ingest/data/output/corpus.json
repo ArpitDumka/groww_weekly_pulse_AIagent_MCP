@@ -5,25 +5,25 @@
     "skipped_malformed": 0,
     "skipped_empty": 0,
     "skipped_out_of_window": 0,
-    "skipped_too_short": 142288,
-    "skipped_has_emoji": 5524,
-    "skipped_non_english": 5218,
+    "skipped_too_short": 142454,
+    "skipped_has_emoji": 5519,
+    "skipped_non_english": 5190,
     "deduped": 9,
-    "capped": 27268,
-    "final_count": 23752,
+    "capped": 27125,
+    "final_count": 23962,
     "by_source": {
-      "play_store": 22944,
-      "app_store": 808
+      "play_store": 23132,
+      "app_store": 830
     },
     "sources": [
       "app_store",
       "play_store"
     ],
-    "added_this_week": 160,
-    "previous_total": 23592,
-    "corpus_total": 23752,
-    "weeks_accumulated": 12,
-    "last_updated": "2026-10-26T12:17:26.413749+00:00"
+    "added_this_week": 210,
+    "previous_total": 23752,
+    "corpus_total": 23962,
+    "weeks_accumulated": 13,
+    "last_updated": "2026-11-02T14:48:51.692215+00:00"
   },
   "reviews": [
     {
@@ -237544,6 +237544,2106 @@
       "text": "Is this very bakwas yah bahut ghatiya",
       "date": "2025-01-23",
       "app_version": null,
+      "locale": "en"
+    },
+    {
+      "id": "f032298b9c08d8f0",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "Dear Groww Support Team, I am raising a formal complaint regarding a serious technical issue I experienced while trading SENSEX 29 Oct 74100 Call on 29 October 2026. I purchased 180 quantity at an average price of \u20b9165.37 at 3:26:53 PM. Immediately after placing the order, the app/chart allegedly stopped updating, and I could not properly monitor the option premium movement. I sold the position at an average price of \u20b993.97 at 3:28:04 PM, resulting in a loss of approximately \u20b912,852 before cha",
+      "date": "2026-11-01",
+      "app_version": null,
+      "locale": "en"
+    },
+    {
+      "id": "de0fe3fa2b9728ed",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "Great app, with very good UI plus it's really aesthetic",
+      "date": "2026-11-01",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "775b39564f7122d7",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "it is showing good results, I need artificial intelligence enhancement in building my portfolio",
+      "date": "2026-11-01",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "715d3f940d4db7d9",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "Never use Groww for trading or investing, as it never display brokerage on screen of transaction, and in background it deduct huge amount. Suppose you buy 1000 share of HDFC bankon zerodha with MTF option,zerodha will deduct 20Rs only brokerage,Angle one also deduct 20 Rs,But Groww will deduct approx 725 Rs.Huge gape,so if you want to pay 40 Rs to buy and sell the same, choose zerodha , angle one or Many options there, but if you want to pay 1450Rs brokerage for the same, you may choose groww",
+      "date": "2026-11-01",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "59c40f3b14f447d8",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "Groww offers an intuitive and accessible investment experience. It's streamlined interface makes investing more approachable. To strengthen the platform, I encourage continued attention to stability, transparency, responsive customer support, robust security and timely issue resolution. Consistent execution and thoughtful innovation can enhance user confidence and trust. Groww is a promising platform with the potential to set a higher benchmark for India's digital investment ecosystem.",
+      "date": "2026-11-01",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "1d70c8163b308f2b",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "good experience in day by day it's good app",
+      "date": "2026-11-01",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "03552e5c2209fc7f",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "I like this app, safe and secure, long time users enjoy the wide veraity of facilitators and topics available after starting with the free trial",
+      "date": "2026-11-01",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "e086fb84559c58e5",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "I Am Using starting to 2022 and I have Trusted this app is safe and secure. No Annual Fee, No Other charges,and this App best part of his semple screen to stock buy or sell new IOP Apply information, and other features.",
+      "date": "2026-10-31",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "d078f687f10499a3",
+      "source": "play_store",
+      "rating": 2,
+      "title": "",
+      "text": "pls give scalpers option also for commodity or develop another app just like 915 for commodity trading.",
+      "date": "2026-10-31",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "afcf37c9feb0ce60",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "very good and user friendly app. almost two years of use, no concern rise.",
+      "date": "2026-10-31",
+      "app_version": null,
+      "locale": "en"
+    },
+    {
+      "id": "933c6ef0960325ce",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "sorry for the rating but you deserve this ! your app is the worst app ever from now I am going to use another platform because of not allotting my ips 2 3 times I applied on jio i applied on BLS but at the end of allotting i always face disappointment with your platform.",
+      "date": "2026-10-31",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "8706b6ce5839b3c9",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "good oro se acha he groww",
+      "date": "2026-10-31",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "742971cbeb1ec95d",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "I am unable to use it at Cameroun country west Africa. Please help",
+      "date": "2026-10-31",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "5cf2944a1993dc60",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "page not loding chart not showing",
+      "date": "2026-10-31",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "591b2ca270b025cd",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "very easy to understand interface this app. if you are a new beginner and start a journey in stock market must be use this Grow app.",
+      "date": "2026-10-31",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "2d35e75c70b6c035",
+      "source": "play_store",
+      "rating": 4,
+      "title": "",
+      "text": "nice app fast work but money send late",
+      "date": "2026-10-31",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "218c9ad1ea9b069f",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "This broker won't support you if there is any dispute. on 29/10/2026 sensex 73500pe, i have lost 30,000/- due to my Stop loss not triggered. immediately I hav raised complaint (request number 28453879). next day they replied it's happened by BSE exchange..",
+      "date": "2026-10-31",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "20e3f8d7f90a795b",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "Good UI for investing and trading",
+      "date": "2026-10-31",
+      "app_version": null,
+      "locale": "en"
+    },
+    {
+      "id": "19da95759d28205f",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "very nice to use this app",
+      "date": "2026-10-31",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "e678b5b9ccd6bdfe",
+      "source": "app_store",
+      "rating": 1,
+      "title": "Unable to modify SIP",
+      "text": "Unable to modify SIP, Now migrating to zerodha",
+      "date": "2026-10-31",
+      "app_version": "18.22.0",
+      "locale": "IN"
+    },
+    {
+      "id": "671a623842f680e4",
+      "source": "app_store",
+      "rating": 5,
+      "title": "Request",
+      "text": "Pls Make h Ipad or Tablet Version as well.",
+      "date": "2026-10-31",
+      "app_version": "18.22.0",
+      "locale": "IN"
+    },
+    {
+      "id": "1643de44ea1c6f5c",
+      "source": "app_store",
+      "rating": 2,
+      "title": "Please make it for iPad.",
+      "text": "I like Groww undoubtedly but one thing is sad to know that its UI is not compatible with iPad screen. It\u2019s working as a mobile screen on iPad. \nKindly improve. Others are doing much better I want to see groww on top of all others",
+      "date": "2026-10-31",
+      "app_version": "18.22.0",
+      "locale": "IN"
+    },
+    {
+      "id": "fe131a9065822a01",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "Mera Sab Pehala Trading App Groww Hai,Tab Groww Ekdam Normal App Tha,Mujhe Kabhi koi Dikkat Aye To Customer Support team ne Full Support Kiya ,jo query hota tha use Soul kiya,Aur JabJab Mujhe App me Kuch update aur Upgradation chaiye tha ,Ya maine Kuch Suggest Kiya Us Par GrowwApp ne 100%Work Bhi kya,Aur Aaj GrowwApp Par Sab Kuch yani A to Z Available Hai,Aur Sabse Badiya Baat to ye lagi pehle se aaj GrowwApp me easy Normal aur Samjhi Jaane Wali Languageka Istemaal Huva hai, GrowwUsekarnaeasyhai",
+      "date": "2026-10-30",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "f1fdb7c797635e57",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "very easy to use and helpful",
+      "date": "2026-10-30",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "eadb5637d94646f8",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "The poorest service provider, I opened a SIP account in 2019 and want to redeem it but the platform is pending it since one year, Helpless feeling.",
+      "date": "2026-10-30",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "e14e6e974d636db6",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "Please solve f&o open problem",
+      "date": "2026-10-30",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "e1084fd58530ba54",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "The grow app is a simple and easy user interface,",
+      "date": "2026-10-30",
+      "app_version": "18.17.3",
+      "locale": "en"
+    },
+    {
+      "id": "e0ebe88b47fff3a9",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "best described as scam..They are closing intra day targets and stop loss as per their convenience...Those who want to loss money can try",
+      "date": "2026-10-30",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "dcb17e24ec6dd373",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "best app for investing and trading thankuu groww",
+      "date": "2026-10-30",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "cd4b2fe2c2b14594",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "mutual funds mismatch. even after submitting CAMS statements multiple times, Their mutual funds display is always wrong. I mailed them a dozen times in last 20 days. Very very incompetent customer service",
+      "date": "2026-10-30",
+      "app_version": null,
+      "locale": "en"
+    },
+    {
+      "id": "afa276e1971f5393",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "fake app only farji charge pr charge lgta h",
+      "date": "2026-10-30",
+      "app_version": null,
+      "locale": "en"
+    },
+    {
+      "id": "ae571ed5855a104d",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "bad experience withdrawal process very slow",
+      "date": "2026-10-30",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "ac707db4632d2855",
+      "source": "play_store",
+      "rating": 3,
+      "title": "",
+      "text": "Everything in option & chain was going well before update and the candle and line chart in my app is not getting sync, the candle chart is now getting worse to predict just bcoz it's not getting sync with line chart...",
+      "date": "2026-10-30",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "9fc10582ade14895",
+      "source": "play_store",
+      "rating": 4,
+      "title": "",
+      "text": "good , very simple to new user , but the problem is when I want to buy some stock then suddenly it can't , something slow down so improve should be there",
+      "date": "2026-10-30",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "94e48bda3a8188d6",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "you can't force me to permission setting you can't force me to share pan card you can't force me to send 1 in your account it is wrong if I want to buy ipo i will do but you can't force me",
+      "date": "2026-10-30",
+      "app_version": null,
+      "locale": "en"
+    },
+    {
+      "id": "9495a3f7d5529d46",
+      "source": "play_store",
+      "rating": 3,
+      "title": "",
+      "text": "Charts are not opening even in a good network. It is showing failed to load.",
+      "date": "2026-10-30",
+      "app_version": null,
+      "locale": "en"
+    },
+    {
+      "id": "8a669e464d22ea53",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "absolutely scam high brokerage charge and oposite direction trade status today Market is down but now is going point its scam app dot trust",
+      "date": "2026-10-30",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "8304daedb22f2a98",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "groww application is easier platform to apply shares",
+      "date": "2026-10-30",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "7a89e07a43d29373",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "or best ho jay to aucha rahega.",
+      "date": "2026-10-30",
+      "app_version": "18.20.2",
+      "locale": "en"
+    },
+    {
+      "id": "666d01c08ff3686f",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "lwot and charges and GST High",
+      "date": "2026-10-30",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "6539544d76cec50c",
+      "source": "play_store",
+      "rating": 4,
+      "title": "",
+      "text": "your service so very helpful thanks to you",
+      "date": "2026-10-30",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "60bd38e27c48da32",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "I have incurred a financial loss because the Exit button did not function properly. I would like to know who will be held responsible for this loss. I have already reported the issue via email, but I have not received any response or resolution so far. Please look into this matter urgently, clarify who is responsible, and provide a proper explanation and resolution for the financial loss I have suffered due to this technical issue.",
+      "date": "2026-10-30",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "5a3c670ad7cb24db",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "groww app is very good app and useful app",
+      "date": "2026-10-30",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "50f208f45b2ca401",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "best app user friendly for 1st time user and very simple to use for new investers",
+      "date": "2026-10-30",
+      "app_version": "14.59",
+      "locale": "en"
+    },
+    {
+      "id": "3d18e8f866abe145",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "Groww is very useful & Best app in India",
+      "date": "2026-10-30",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "36e071d39a79d505",
+      "source": "play_store",
+      "rating": 4,
+      "title": "",
+      "text": "Groww is a user-friendly app with a smooth interface for investing in stocks, mutual funds, and IPOs. The platform is convenient and beginner-friendly. However, app performance and customer support could be improved. Overall, a great investment app!",
+      "date": "2026-10-30",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "325059625880a8b9",
+      "source": "play_store",
+      "rating": 4,
+      "title": "",
+      "text": "I aa tyyfdt ty to the poster for THE m z",
+      "date": "2026-10-30",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "2fdbaf8c78fd18dc",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "can you add distance filters for 10/50/100/200 sma/ema and 52wk/all time high low from LTP/CMP Eg. Filter all stocks where LTP/CMP is +/-3% from their 20 EMA",
+      "date": "2026-10-30",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "2f6cbb7e5e99bc98",
+      "source": "play_store",
+      "rating": 4,
+      "title": "",
+      "text": "sometimes by placed order cannot shows me Nd while i try to end my bulk trade there is some glitch . rest is bes",
+      "date": "2026-10-30",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "2a9b376b73b0cc53",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "good experience and immediately the problems get solved.",
+      "date": "2026-10-30",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "2127d2a94bcac84a",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "best app gives profit direct in wallet",
+      "date": "2026-10-30",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "1a7dfc93ec0c7870",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "worst app... i thought my mobile was slow.. actually this app is slow for trading..",
+      "date": "2026-10-30",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "0fa9e5603af6426e",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "Best broker among all broker. Very fast execution.",
+      "date": "2026-10-30",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "fee2fa26c4f5c52f",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "screen keeps hanging and incurred me losses due to delay in order execution with an error adapter has disconnected",
+      "date": "2026-10-29",
+      "app_version": null,
+      "locale": "en"
+    },
+    {
+      "id": "fc0bc063996b8825",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "Worst experience while using the application. while placing the exit it's showing adapter disconnected. Who take the responsibility. Who loss the money. please dnt use this application for f&o trade.",
+      "date": "2026-10-29",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "fa018a26b6ba44de",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "after upgrading to a new update. order placed will not show exact value on the chart after coming back and again going into the chats it's displaying correct plus or minus value and sometimes stoploss also not triggering we need to close the app and come back and also while selling getting Adaptor has disconnected error.",
+      "date": "2026-10-29",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "f827663b4cfe8b01",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "This app very excellent and more knowledgeable and very easy conversation to other's",
+      "date": "2026-10-29",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "f49405b842bffb07",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "It is hard to focus on nunbers and letters. So please increase the font size. Apart from that all features are easily accessible.",
+      "date": "2026-10-29",
+      "app_version": "18.20.2",
+      "locale": "en"
+    },
+    {
+      "id": "eb74e174827ce0e1",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "Such a disgusting app Trade is not executed in proper time Ghatiya",
+      "date": "2026-10-29",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "d71b6cf26c476334",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "best app I used ever very easy to use love it \u2b50",
+      "date": "2026-10-29",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "d2f43191dbfe13ac",
+      "source": "play_store",
+      "rating": 2,
+      "title": "",
+      "text": "today my selling order not working adaptar removed massage seen so i have money lose",
+      "date": "2026-10-29",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "c474018f1d152455",
+      "source": "play_store",
+      "rating": 4,
+      "title": "",
+      "text": "when sbi bank will be available to add fund in us wallet",
+      "date": "2026-10-29",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "aff6036e7407fd1d",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "While playing candles Exit button disappear and i face heavy loss Who will be responsible you or anyone else i am very angry",
+      "date": "2026-10-29",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "a83d0308f0955e58",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "easy to handle and understanding but brokrage is high",
+      "date": "2026-10-29",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "9fd459cf70340692",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "app is good but groww team not taking response. 1. while analysing portfolio there is no tally with market cap value, sector wise allocation and assets allocation. it to be updated with currect allocation in all sectors. 2. Technician team telling updated but nothing changed, My overall XIRR is -45.66% due to allocation not correct",
+      "date": "2026-10-29",
+      "app_version": "18.20.2",
+      "locale": "en"
+    },
+    {
+      "id": "9ded5bc7a4b38307",
+      "source": "play_store",
+      "rating": 3,
+      "title": "",
+      "text": "The ipo upi request sucks, neither I get a IPO upi request to approve nor a notification",
+      "date": "2026-10-29",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "88d904402fedbf71",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "Too much technical glitch all the time . sometimes it won't allow you to exit from the trade. This is very concerning",
+      "date": "2026-10-29",
+      "app_version": null,
+      "locale": "en"
+    },
+    {
+      "id": "86bdf53973effadf",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "the Android version of Groww does not calculate live percentage changes directly on the main stock page preview chart. While iOS dynamically shows both the rupee amount and the percentage offset right on the preview line when you drag your finger fix this issue for Android users",
+      "date": "2026-10-29",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "837d52f37aee7da2",
+      "source": "play_store",
+      "rating": 3,
+      "title": "",
+      "text": "Mutual fund locking system is wrong. Starting investing money date is important. After investing money date is not important.",
+      "date": "2026-10-29",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "80e3e6c2fc01cf59",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "receiving this error on border journey expired every time if I try to buy shares i clear cache clear data as well uninstall as well but still show this problem",
+      "date": "2026-10-29",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "7d328b3214adb043",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "my experiance is good sare function baut easy hai",
+      "date": "2026-10-29",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "73fb32161b2acba0",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "The Groww app frequently freezes during trading hours, causing inconvenience and potential financial losses. Every second matters in trading, and delays can lead to missed opportunities. Despite contacting customer support multiple times, I was repeatedly advised to reinstall the app. I followed their instructions, but the issue persisted. Groww must fix these technical problems, improve app stability,Customers deserve a reliable trading platform and lasting solutions, not repeated generic advic",
+      "date": "2026-10-29",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "6c8021f91110410b",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "very clean and easy to locate interface.",
+      "date": "2026-10-29",
+      "app_version": "18.14.1",
+      "locale": "en"
+    },
+    {
+      "id": "5c5832e11819a3a8",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "One of the best Broker Application for beginners and students have used many apps but groww have most cleanest and easy to understand UI Groww upi is one of the fastest upi i prefer grow upi mostly than my upi apps",
+      "date": "2026-10-29",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "5530166b7e24d6e0",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "in selun my family meter dur in on open close senun partner in Tanvir atej mere sath dukan open me help kare goldi help kare kunal help kare namaste pm Sarita gondane namaste handal dono Mera bhai Abhishek gondane crime branch commissioner officer in ig officer sandeepa crime branch senior carg chalu home returen abhay gondane okyy boy friend request accept Karo please okyy meri ma Sarita india post pyement bank available account in handal abhay gondane cd ss bike handal modified mai kar lunga",
+      "date": "2026-10-29",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "4f2ce47fe8227fb3",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "worst experience because there the trade can't exit easily",
+      "date": "2026-10-29",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "4d3d47aa3e58669d",
+      "source": "play_store",
+      "rating": 3,
+      "title": "",
+      "text": "please remove explore in chat it not showing good",
+      "date": "2026-10-29",
+      "app_version": null,
+      "locale": "en"
+    },
+    {
+      "id": "4af691af5c3d0577",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "Happy with Groww, Easy to use, invest and read the stock.",
+      "date": "2026-10-29",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "3bc3acb9d0c9db45",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "don't use this app they manipulate your orders and buy at loss I have screen recording",
+      "date": "2026-10-29",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "35a570094bc0c0ce",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "only one worst thing that you can download on online is this app",
+      "date": "2026-10-29",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "2e4b57fd3e4bb449",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "very bad havy charges..very toomuch charges",
+      "date": "2026-10-29",
+      "app_version": null,
+      "locale": "en"
+    },
+    {
+      "id": "29a7e5caf65e2a2e",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "worst app for trading. I canceled my order but after 5 minutes order traded automatically",
+      "date": "2026-10-29",
+      "app_version": null,
+      "locale": "en"
+    },
+    {
+      "id": "24c65e2654bec87b",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "the app is very smooth to operate.",
+      "date": "2026-10-29",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "2130210aa23b1a20",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "This is the worst app ever. Nobody should download it.",
+      "date": "2026-10-29",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "2097382b2f55fb53",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "after update very bad and laggy process for F&O trading. Facing many issues prices not updating,unable to find my position in scalper trading. Please look and update",
+      "date": "2026-10-29",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "1cb67c7871f2354a",
+      "source": "play_store",
+      "rating": 3,
+      "title": "",
+      "text": "best app but function or hona chahiye",
+      "date": "2026-10-29",
+      "app_version": "18.18.1",
+      "locale": "en"
+    },
+    {
+      "id": "140fb43dc31bf559",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "Grow has a very good user interface but the brokerage is very high while buying and selling you will experience it. don't apply for an IPO. I never got an IPO from Grow. even SIP is also not good here.",
+      "date": "2026-10-29",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "0cf5ef4350d5056f",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "middle class scope to earn small saving money",
+      "date": "2026-10-29",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "0bccced62f4b4960",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "Options trading is nothing but a scam that tricks people into losing their money.\u201d",
+      "date": "2026-10-29",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "b0d5f77ee65e4543",
+      "source": "app_store",
+      "rating": 1,
+      "title": "Lagging amd slow movement",
+      "text": "After updating application legging and slow movement pls fix that as soon as possible .chat price stuck and fluctuated very slow",
+      "date": "2026-10-29",
+      "app_version": "18.22.0",
+      "locale": "IN"
+    },
+    {
+      "id": "4154cdea8777e2f2",
+      "source": "app_store",
+      "rating": 5,
+      "title": "| Investing Made Easy!",
+      "text": "Groww App beginners ke liye ek easy aur user-friendly investment platform hai. Isme Stocks, Mutual Funds aur IPO mein invest karna kaafi aasan hai. Interface simple hai aur use karna bhi easy hai. Overall, beginners ke liye ek achha option! \u2b50\u2b50\u2b50\u2b50",
+      "date": "2026-10-29",
+      "app_version": "18.22.0",
+      "locale": "IN"
+    },
+    {
+      "id": "1825403b9f69237c",
+      "source": "app_store",
+      "rating": 5,
+      "title": "In future, making this app more accessible for visually challenge users",
+      "text": "Needs more improvement in accessibility, such as VoiceOver compatibility, and VoiceOver optimisation on iPhone for visually challenged user",
+      "date": "2026-10-29",
+      "app_version": "18.22.0",
+      "locale": "IN"
+    },
+    {
+      "id": "e0392139f24a824b",
+      "source": "play_store",
+      "rating": 2,
+      "title": "",
+      "text": "please add f&o order preference",
+      "date": "2026-10-28",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "d47cf540a5ff8da9",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "what happened grow app it's very good few months ago but now iam facing problem that hanging and slow because of this i loses of many trades that's why I deleted this app and shifting other brocker platforms please solve the such problems I will back",
+      "date": "2026-10-28",
+      "app_version": null,
+      "locale": "en"
+    },
+    {
+      "id": "d3f82cf022f12e0e",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "use grow app and take it grow life",
+      "date": "2026-10-28",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "d31a638649f86d0f",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "i love this application as its simple and easy to invest in mutual fund and stock.. i have been using since 3 years and quite satisfied",
+      "date": "2026-10-28",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "d121d727fe3dc686",
+      "source": "play_store",
+      "rating": 3,
+      "title": "",
+      "text": "only some private banks are allowed for loading funds for US investments. When can expect other banks and Govt Banks.",
+      "date": "2026-10-28",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "cf763da68fb07ab7",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "best part of grow... easy to use with very much convenience ,less clattered user friendly for beginners...yeah but one thing they should upgrade is candlestick time frame less than minute should introduce and indicators customisation.....",
+      "date": "2026-10-28",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "ce13048a9a05ab62",
+      "source": "play_store",
+      "rating": 4,
+      "title": "",
+      "text": "this app is very best for trading and mutual fund",
+      "date": "2026-10-28",
+      "app_version": "18.7.1",
+      "locale": "en"
+    },
+    {
+      "id": "caa13a073d9203eb",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "best app for trading free of cost.",
+      "date": "2026-10-28",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "c7adee1540b5d74b",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "khup chaan app ahhe Grow. UI pan mast ahhe",
+      "date": "2026-10-28",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "b729a22ed084eaed",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "v nice app easy to use",
+      "date": "2026-10-28",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "b29a9ee3de2db353",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "reliable and easy to use, Best app.",
+      "date": "2026-10-28",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "afdcdc7a6f7d4568",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "bad experience, server is down main hours",
+      "date": "2026-10-28",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "8c3b7e8c2604c930",
+      "source": "play_store",
+      "rating": 3,
+      "title": "",
+      "text": "Add option for portfolio value/Selected stock/indices value live on notification bar",
+      "date": "2026-10-28",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "7ea085c9fb48d1fb",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "first of all.... this app has taken more than 7 days just to fetch pan card details.... and after 5 calls and emails they deleted my account.... I reopened my account.... now I have done 4 times kyc and it's again asking to do KYC.... and again I tried adding bank account but that account is not linking.... I just fade up trying..... now I'll uninstall this app",
+      "date": "2026-10-28",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "7df630cb9ebf1607",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "very fast and quick services i am very impressed",
+      "date": "2026-10-28",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "6c5e1ecf7d8433e1",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "Groww is a scammer and engages in fraudulent practices. I used MTF, where the units are supposed to be automatically squared off when the portfolio goes into negative territory. However, Groww failed to square off my positions on time, due to which I had to sell all my units myself. Even after selling all the units, my balance is still showing negative, despite having no shares left in my portfolio. Groww should have squared off my positions on time to prevent this situation.",
+      "date": "2026-10-28",
+      "app_version": null,
+      "locale": "en"
+    },
+    {
+      "id": "660872059085e696",
+      "source": "play_store",
+      "rating": 3,
+      "title": "",
+      "text": "not working sometimes. this app is strucking in middle of trading. please update for easy operating. thank you.",
+      "date": "2026-10-28",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "63790c664c379f39",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "very good and suitable system of this application so easy to understand.",
+      "date": "2026-10-28",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "5d9ee45f52e2fa3b",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "very disappointed when you guys removed fixed deposit feature",
+      "date": "2026-10-28",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "59597aa149deec9f",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "Groww is a very user-friendly and reliable app. The interface is simple and easy to use, even for beginners. I really appreciate the zero account opening charges and zero annual maintenance charges (AMC). The app provides a smooth experience and makes investing easy and convenient. Highly recommended for beginners and experienced investors alike!",
+      "date": "2026-10-28",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "57e737c35985ed36",
+      "source": "play_store",
+      "rating": 3,
+      "title": "",
+      "text": "please make safe exit bar for commodities also..",
+      "date": "2026-10-28",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "488894399185b49f",
+      "source": "play_store",
+      "rating": 3,
+      "title": "",
+      "text": "Welcome to Welcome to Gboard clipboard, any text that you copy will be saved here.v yc haiuv gai hai cg.",
+      "date": "2026-10-28",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "47e9c3b848281707",
+      "source": "play_store",
+      "rating": 2,
+      "title": "",
+      "text": "Hi Team the chevron for the date range change in quarterly results has gone missing after updating my app. kindly bring it back.. .",
+      "date": "2026-10-28",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "3b49011ff8061d61",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "worst customer support I ever had",
+      "date": "2026-10-28",
+      "app_version": null,
+      "locale": "en"
+    },
+    {
+      "id": "39cd55f918f62310",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "too much glitch... I was to take away at let say +4 but suddenly it started showing jumbled numbers everywhere like literally jumbled everything. then got executed at -16... very bad really...",
+      "date": "2026-10-28",
+      "app_version": null,
+      "locale": "en"
+    },
+    {
+      "id": "38078368d84fa51f",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "Groww is a very good aap. This app is very simple for using.",
+      "date": "2026-10-28",
+      "app_version": "18.18.0",
+      "locale": "en"
+    },
+    {
+      "id": "32e5b9857e5a5cbc",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "Its a great app but I give only 1 star because it doesn't have landscape mode i use this app in my tablet so when i want to use in landscape mode I can't do that",
+      "date": "2026-10-28",
+      "app_version": "18.22.1",
+      "locale": "en"
+    },
+    {
+      "id": "19d5d8178030c832",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "It is Very good investment platform. keep Pecence",
+      "date": "2026-10-28",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "16a6160f302f57fe",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "Worst app. while selling Jio shares, it took 7 mins to load tpin option with superfast internet connection. My friend used Kotak Neo and he got the best price within seconds. Don't apply your charges on the transaction",
+      "date": "2026-10-28",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "12cf716756afd5e2",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "it's a genuine and user-friendly, and also very much special for bigginer",
+      "date": "2026-10-28",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "0f06d4b4afe8f74c",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "fasteners & smoother working word best features no. 1 application",
+      "date": "2026-10-28",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "099f9665087fea2e",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "should mention brokerage and tax charges after each transaction a little clearly",
+      "date": "2026-10-28",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "061be5690ac93fec",
+      "source": "play_store",
+      "rating": 4,
+      "title": "",
+      "text": "detailed view of shares purchased and current market price is not available in single window please update it .",
+      "date": "2026-10-28",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "00cfd063aa87ed5f",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "wonderful app , simply understand all options",
+      "date": "2026-10-28",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "e7c8669b5a2395b3",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "poor app, doesn't execute the order at correct time even at price target, it causes loss to the investor.",
+      "date": "2026-10-27",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "d8396834d0798430",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "superb quality and brokerage charge is too much",
+      "date": "2026-10-27",
+      "app_version": "18.22.0",
+      "locale": "en"
+    },
+    {
+      "id": "d2f4761a89540148",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "added USD 216 (21k rupees), 8 days ago and it was never added to my account. Every day they give the same response stating that they are checking with their partner bank, no timelines, no commitment to resolve this.",
+      "date": "2026-10-27",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "c407b67c0e3da80d",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "I need multiple chart on screen",
+      "date": "2026-10-27",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "beca091eb419885f",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "Not sure what registration you are enforcing. Is it mandatory to register for a demat account??? I am not at all sure what are you trying. From today I see you are enforcing the details submission or app is closing. If I want to check MF details why you will force me to register for a demat account. Please explain. Latest Update - Raised a case with Groww support as suggested and same scenario. I am asking what detail you are asking & your support marked the case resolved without any solution.",
+      "date": "2026-10-27",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "bec3ebf9fcec973c",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "first time use app very good",
+      "date": "2026-10-27",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "af109453416a2530",
+      "source": "play_store",
+      "rating": 4,
+      "title": "",
+      "text": "easiest way for learners start investing",
+      "date": "2026-10-27",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "a63bbefec6edbd91",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "Easy and good platform for new opportunities in the field",
+      "date": "2026-10-27",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "9eef1f4721250eca",
+      "source": "play_store",
+      "rating": 2,
+      "title": "",
+      "text": "widget is not working as intended. the size is smaller than it should be, because of which I cannot see my 1 day updates and total.",
+      "date": "2026-10-27",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "86e2fa55764dfaa0",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "Grow is best opportunity in Trading",
+      "date": "2026-10-27",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "85ea844fa760cbf2",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "exceptionally better than other apps and have a wider range of assurance and customer service it's a great and I'm using as my main investment app",
+      "date": "2026-10-27",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "8583d51a96194ffb",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "Guys dont use this GROWW.. I APPLIED ALMOST 20 IPO BUT STILL NO ONE ALLOCATE TO ME GUYS THIS APP IS FAKE SO DO NOT USE THIS USE ZERODHA GUYS",
+      "date": "2026-10-27",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "818f3c8b1689de68",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "Greate...!!! Using it for the first time..",
+      "date": "2026-10-27",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "7559b58ebd081625",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "Groww service is very poor and terrible. I've been trying to complete my KYC for a long time, but it's not happening. I talk to customer service every day, but they don't help. They just email me every day saying it's fixed. please don't use it",
+      "date": "2026-10-27",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "6facce31f8088d4b",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "Must Download, easy and smooth interface, easy to understand .",
+      "date": "2026-10-27",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "697b8edde5c52219",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "Thank you for providing a user-friendly platform and helping new investors like me take their first steps into the stock market. I truly appreciate your efforts, patience, and commitment to making investing more accessible.",
+      "date": "2026-10-27",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "6045fcf14a372b4b",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "good suggestions and fast orders an execution",
+      "date": "2026-10-27",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "54e278046992baab",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "thank god my first ipo allotment successful done",
+      "date": "2026-10-27",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "47f80bbd4f901a29",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "smoothly working, fast & provides information at anytime we require",
+      "date": "2026-10-27",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "42648fb1835241c1",
+      "source": "play_store",
+      "rating": 4,
+      "title": "",
+      "text": "very fast & very easy & very comfortable",
+      "date": "2026-10-27",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "3e6355e38d9c53b1",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "I am a beginner and this application is absolutely user friendly",
+      "date": "2026-10-27",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "2faa452204d4ba49",
+      "source": "play_store",
+      "rating": 2,
+      "title": "",
+      "text": "Live Chart hanging issue in Android Smartphone ( Poco X8 Power ).",
+      "date": "2026-10-27",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "2ab180461e0091fb",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "agar stock market IPO mutual fund normal etc jo stock market related ho woh dekhne ke liye bhi aadhar card number add karo bol rhe ho itna time nhi hai tumhare KYC ke liye hamare paas hum Jaison ki wajah se tumhare app itne download hue hai safety concern hote ye sab kaise app ko de de investment karna hi nhi ho toh 1star bhi deserve nhi karta agar Normal use karne ke liye ye sab karna pade",
+      "date": "2026-10-27",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "23b3550fde464531",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "very useful apps in s marketing",
+      "date": "2026-10-27",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "1b9b9db48e289bde",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "Groww platform is very easy to handle always helping in every aspects of stock Market MF",
+      "date": "2026-10-27",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "1b65edb4474f1567",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "Groww may have a simple and user-friendly interface, but that doesn't mean it offers everything that serious, long-term investors need. Zerodha Coin provides features like quarterly SIPs and AMC SIPs, which I couldn't find on Groww. This lack of flexibility is one of the reasons I decided to shift from Groww to Zerodha Coin. Customer support also needs significant improvement. A good investment platform should focus not only on ease of use but also on providing useful features, flexibility",
+      "date": "2026-10-27",
+      "app_version": null,
+      "locale": "en"
+    },
+    {
+      "id": "1753d80c82f33ea8",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "It is very user-friendly and simple to trade.",
+      "date": "2026-10-27",
+      "app_version": "18.20.2",
+      "locale": "en"
+    },
+    {
+      "id": "14566d7cf727543b",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "Groww is way better than Upstox in my opinion! The interface is clean, user-friendly, and very easy to navigate, even for beginners. Everything is well organized, and investing feels simple and hassle-free. Compared to Upstox, Groww offers a much smoother user experience and a more intuitive design. Overall, it is easy to use, looks great, and makes managing investments convenient. Definitely my preferred app for investing! Highly recommended.",
+      "date": "2026-10-27",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "11c5670c55233a17",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "excellent service provider, I feel very good",
+      "date": "2026-10-27",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "f65f5a5b4c2d30af",
+      "source": "app_store",
+      "rating": 5,
+      "title": "Good app to manage and save money",
+      "text": "Good app to manage and save money",
+      "date": "2026-10-27",
+      "app_version": "18.22.0",
+      "locale": "IN"
+    },
+    {
+      "id": "d1dcf37315af0197",
+      "source": "app_store",
+      "rating": 1,
+      "title": "App not working",
+      "text": "This app is not working properly and their customer care is worst. Last two days am waiting their reply but still not responding.",
+      "date": "2026-10-27",
+      "app_version": "18.22.0",
+      "locale": "IN"
+    },
+    {
+      "id": "aea620176e438a4b",
+      "source": "app_store",
+      "rating": 1,
+      "title": "False information",
+      "text": "Losses only losses don\u2019t invest",
+      "date": "2026-10-27",
+      "app_version": "18.22.0",
+      "locale": "IN"
+    },
+    {
+      "id": "a757f46ed4e10f94",
+      "source": "app_store",
+      "rating": 1,
+      "title": "Glitch in price actions",
+      "text": "Now a days in enhancements of app groww having too much glitches and stucks in iphone as well as android too using in both mobiles why it not cut the price when target is acjieved o stop loss its always up and down not at the cost please correct too much lagging in groww",
+      "date": "2026-10-27",
+      "app_version": "18.22.0",
+      "locale": "IN"
+    },
+    {
+      "id": "65cd96688d7a0202",
+      "source": "app_store",
+      "rating": 5,
+      "title": "Good app",
+      "text": "Why there is no long and short risk reward option in scalping in iPhone",
+      "date": "2026-10-27",
+      "app_version": "18.22.0",
+      "locale": "IN"
+    },
+    {
+      "id": "163e24f5df85ac7f",
+      "source": "app_store",
+      "rating": 1,
+      "title": "Worst app not responding while selling time zone",
+      "text": "Never recommend",
+      "date": "2026-10-27",
+      "app_version": "18.22.0",
+      "locale": "IN"
+    },
+    {
+      "id": "144f343939cf7563",
+      "source": "app_store",
+      "rating": 1,
+      "title": "Full of bugs and no response from developers",
+      "text": "Chart always lag when screen timeout for a while after multiple refresh charts show the gap every time need to restart the app",
+      "date": "2026-10-27",
+      "app_version": "18.22.0",
+      "locale": "IN"
+    },
+    {
+      "id": "f65cd27e1206cee2",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "good app and easy app explore and beginner is absolutely right here",
+      "date": "2026-10-26",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "f296804b3e2c5661",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "This is very nice, very easy and simple method.",
+      "date": "2026-10-26",
+      "app_version": "18.13.2",
+      "locale": "en"
+    },
+    {
+      "id": "dfcaf6d258015031",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "Too much sleepage when execute a order very pathetic.",
+      "date": "2026-10-26",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "d77d92886d9be3d5",
+      "source": "play_store",
+      "rating": 3,
+      "title": "",
+      "text": "Dear groww, when I making basket of different expiry dates, it is not showing option to add different expiry in basket",
+      "date": "2026-10-26",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "d0f81dd089f37595",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "worrest app no upi working nothing",
+      "date": "2026-10-26",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "cbe70176c5a55ba5",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "Groww automatically squares off Option positions despite having sufficient Margin. Don't trade F&O on Groww",
+      "date": "2026-10-26",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "c1c5474e82481148",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "best app but no customer support in Tamil",
+      "date": "2026-10-26",
+      "app_version": "18.22.0",
+      "locale": "en"
+    },
+    {
+      "id": "91def5105618f816",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "simple to handle d mat ac.",
+      "date": "2026-10-26",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "8859cba7412271db",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "easy for opening and easy to work very good app, I recommend for trading and investment.",
+      "date": "2026-10-26",
+      "app_version": "18.19.2",
+      "locale": "en"
+    },
+    {
+      "id": "799f415d74cdcb86",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "very bad App its lacking app zerodha is best app very very bad",
+      "date": "2026-10-26",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "6cc6f0497ad74fbb",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "best app easy to handle quick response",
+      "date": "2026-10-26",
+      "app_version": null,
+      "locale": "en"
+    },
+    {
+      "id": "6b21be7e5c3c94c1",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "very fast, & for beginners like me the interface is really very easy & simple. I asked my ai about investing & it also suggested me this app only because of how easy it is to use. For little things I get confused about, I ask it to my ai and it simple explains me other almost everything is easy, KYC is very fast & you get approved very fast",
+      "date": "2026-10-26",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "5638d047690f8450",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "I like this apps very much.",
+      "date": "2026-10-26",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "52392cebb017011e",
+      "source": "play_store",
+      "rating": 4,
+      "title": "",
+      "text": "It's good, but in between you must provide us with buy and sell recommendations in stocks which are beneficial.",
+      "date": "2026-10-26",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "43eabdc2b622c282",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "One of the best platform for starting investment Platform experience is super smooth If one wants to start investment I will definitely suggest this platform",
+      "date": "2026-10-26",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "3e0bbf20bacc1f9e",
+      "source": "play_store",
+      "rating": 4,
+      "title": "",
+      "text": "payment for editing personal details like email address and mobile no....not good. it should be free.",
+      "date": "2026-10-26",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "3406e203a41c60e0",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "please improve screen look and some extra options unlike other brokers when buy or sell",
+      "date": "2026-10-26",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "30419fa98fb7b5a8",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "Easy to navigate. Simple to operate",
+      "date": "2026-10-26",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "2f201ffd89c59fd8",
+      "source": "play_store",
+      "rating": 4,
+      "title": "",
+      "text": "\"Subject: Feature Request \u2013 Easy Share Transfer like UPI. Dear Groww Team, I have a suggestion for improving the Groww app. Just as UPI allows instant and easy money transfers, I'd like Groww to offer a simple and fast feature for transferring shares between Demat accounts. Currently, share transfer can take time and involve multiple steps. If Groww offered a secure and user-friendly share transfer feature, it would make the process much easier for investors. I request the Groww team to consider",
+      "date": "2026-10-26",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "1ba57f89b403962a",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "Prime Mutual fund in groww app is a SCAM. They don't tell clearly but manipulate you into buying regular (costly) mutual funds. Never expected this from Groww. While you are in Prime mode, dashboard will not mention which are the regular MF. Only after exiting the Prime mode, they mention it. I'm going to make official complaint against Groww.",
+      "date": "2026-10-26",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "16c027dd10e4d46d",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "very bad app not proper working very fast down market every time lost money uninstall this app",
+      "date": "2026-10-26",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "44efbcb04073a390",
+      "source": "app_store",
+      "rating": 1,
+      "title": "Closed my reliance call due to incorrect calculation of margin by groww side. Who gave them right",
+      "text": "Groww casually closed my carry forward call in groww without my permission. Groww now is being run by bunch of scamsters",
+      "date": "2026-10-26",
+      "app_version": "18.22.0",
+      "locale": "IN"
+    },
+    {
+      "id": "cc8ad2ca31ef385f",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "Charges too high for US stocks. Shifting Indian stocks to IND Money too.",
+      "date": "2026-10-25",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "b7d601a652a95057",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "mobile app not showing US stocks",
+      "date": "2026-10-25",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "99d5a53af02dbba2",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "BEST BROKER AND INTERFACE IS TOO CLEAN AND EASY AS COMPARED TO OTHER APPS",
+      "date": "2026-10-25",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "642629b891d9ce70",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "Very Unprofessional and Serious Data Security Concern I am extremely disappointed with the unprofessional service of the Groww platform. While checking my joining form, I discovered that the Aadhaar card attached to my application belongs to another person whom I do not know. How can such a serious mistake happen on a financial platform? This raises major concerns about document verification, data security, and the handling of customers' personal information. Attaching another person's",
+      "date": "2026-10-25",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "4702323b42ba5b04",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "NEVER USE GROWW! Withdrawal money never credited. My first experience was terrible. I invested in an emergency liquid mutual fund, but when I placed my first withdrawal order, Groww executed it the same day without generating a UTR number or crediting the money. They claimed a cheque was sent via BlueDart, which showed \u201cDelivered to self.\u201d Despite raising tickets and submitting my bank statement and cancelled cheque repeatedly, Groww kept me in the same loop. SAME HAPPENED WITH THE SEC ORDER",
+      "date": "2026-10-25",
+      "app_version": null,
+      "locale": "en"
+    },
+    {
+      "id": "288a3e31f1636e2e",
+      "source": "play_store",
+      "rating": 4,
+      "title": "",
+      "text": "need to improve chart original structure, options for 2,4, years and months",
+      "date": "2026-10-25",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "8ffdcc315b24364b",
+      "source": "app_store",
+      "rating": 5,
+      "title": "Not optimised for ipad",
+      "text": "Please optimised this app for ipad , there is blank screen when using in ipad. Please solve this issue",
+      "date": "2026-10-25",
+      "app_version": "18.22.0",
+      "locale": "IN"
+    },
+    {
+      "id": "33ceba65406c624a",
+      "source": "app_store",
+      "rating": 1,
+      "title": "Scam",
+      "text": "I purchased a share of company but it\u2019s doesn\u2019t work then the money is lost",
+      "date": "2026-10-25",
+      "app_version": "18.22.0",
+      "locale": "IN"
+    },
+    {
+      "id": "2124ac5e4c86439f",
+      "source": "app_store",
+      "rating": 4,
+      "title": "Facing issue while doing skip sip",
+      "text": "Groww team, there is a critical bug while trying to skip sip on iPhone device. I have been taken to login screen whenever I am trying to skip sip. Please fix it asap.",
+      "date": "2026-10-25",
+      "app_version": "18.22.0",
+      "locale": "IN"
+    },
+    {
+      "id": "e762b1843b3787ef",
+      "source": "app_store",
+      "rating": 1,
+      "title": "Mobile number issue",
+      "text": "\u2b50 1 Star. Very poor customer support! Groww keeps asking me to download the app, but takes no action and provides no proper response. My mobile number issue remains unresolved despite multiple emails and support tickets. Highly disappointing. Please fix the issue instead of making users wait. I recommend choosing another platform.",
+      "date": "2026-10-24",
+      "app_version": "18.22.0",
+      "locale": "IN"
+    },
+    {
+      "id": "9e2869c3e56e06de",
+      "source": "app_store",
+      "rating": 5,
+      "title": "Excellent Investment App",
+      "text": "Groww is a user-friendly platform for investing in stocks, mutual funds, and IPOs. The interface is simple, and managing investments is easy and convenient. Overall, a great app for beginners as well as experienced investors. Highly recommended!",
+      "date": "2026-10-24",
+      "app_version": "18.22.0",
+      "locale": "IN"
+    },
+    {
+      "id": "b5eaa9310c75ef14",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "AI is Good Kripya Aur Devloped Kijiye",
+      "date": "2026-10-23",
+      "app_version": "18.21.1",
+      "locale": "en"
+    },
+    {
+      "id": "cfe32248c03acdc5",
+      "source": "app_store",
+      "rating": 1,
+      "title": "The app being crashed when you take trade..",
+      "text": "Tum log kisi ki lanka laga doge mere sath do baar aisa hua ki meine trade liya hua hai aur app crash kr gya and bodara app kholne ke bad position me kahi trade dikha bhi nahi rha hai. After 2 or 3 times app restart mera trade dikhaya tab tak sara profit loss. Never use this app guys..",
+      "date": "2026-10-06",
+      "app_version": "18.18.0",
+      "locale": "IN"
+    },
+    {
+      "id": "62fc9e8757c038c6",
+      "source": "app_store",
+      "rating": 5,
+      "title": "Operation good",
+      "text": "Operate krna bohot asaan hai",
+      "date": "2026-09-08",
+      "app_version": "18.15.0",
+      "locale": "IN"
+    },
+    {
+      "id": "9c3686b5c093150c",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "aap ne bahuto ka pesa khaya h or ab mera aapki company me last day h ab me aagye se koi task pura nhi karunga mene ek ek chij aapke hi tarike se ki thi fir bhi aap lead ko success krne ke mood me nhi hote h lgta h pese kha jate h kya or customer care ko call kro to Ai lga diye ho jo bol to deti h 30 min me call aayega lekin koi call nhi aata or glti se call aaye to 1 ring me hi call discontinued ho jata h kya pta aap formality krte ho kya had h",
+      "date": "2026-07-22",
+      "app_version": "18.13.2",
+      "locale": "en"
+    },
+    {
+      "id": "6f98244fc2289ab8",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "Trade like a pro use Grow",
+      "date": "2026-03-19",
+      "app_version": "18.4.3",
+      "locale": "en"
+    },
+    {
+      "id": "04548b14351b0e79",
+      "source": "app_store",
+      "rating": 5,
+      "title": "Use of AI in more efficient way for finding good companies for newbies",
+      "text": "You should use AI better to tell us about ongoing activity in companies when market is open. It ll let us also analyse and see what that company is doing beter and should we also invest in it. Very imp for newbies.",
+      "date": "2026-02-09",
+      "app_version": "18.0.0",
+      "locale": "IN"
+    },
+    {
+      "id": "3ba9d72e7a8d6c10",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "best app easy to use groww app mujhe bhi nahi aya ta use karne ke liye ap sik Raha hu....",
+      "date": "2026-02-04",
+      "app_version": "18.1.1",
+      "locale": "en"
+    },
+    {
+      "id": "a2d2cbe65cf742ed",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "KYC nahi ho raha. mera adharcard and pancard dono linked he but. to bhi kYC nahi ho raha. and customer car me already me 2 bar bat kar chuka hu. But problem solve nahi hota. ye problem ki vajah se me SIP me investment nahi karasakata. sirf is problem ki vajah se me Grow chhodake Angle one me jane ki socha raha hu.",
+      "date": "2025-12-26",
+      "app_version": "17.99.1",
+      "locale": "en"
+    },
+    {
+      "id": "fc8b8c2d4b6ce9af",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "ham ik sath 2 expiry ki postion nhi add ker skte basket m aur na hi alag alag expiry ko trade kerte h ik sath to margin benifit milta h ...this app not for special treding",
+      "date": "2025-12-15",
+      "app_version": "17.98.0",
+      "locale": "en"
+    },
+    {
+      "id": "528b4685a4dd3695",
+      "source": "play_store",
+      "rating": 2,
+      "title": "",
+      "text": "ek dam ghatiya service he ...iski",
+      "date": "2025-09-10",
+      "app_version": "17.93.2",
+      "locale": "en"
+    },
+    {
+      "id": "bc443114a5084970",
+      "source": "play_store",
+      "rating": 4,
+      "title": "",
+      "text": "mere 1 rupaye wapas nhi mile groww ne kha tha wapas mil jayenge",
+      "date": "2025-08-16",
+      "app_version": "17.91.1",
+      "locale": "en"
+    },
+    {
+      "id": "139ff005024f172a",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "app accha hai par dusro se charj jyada he",
+      "date": "2025-01-15",
+      "app_version": "17.52",
+      "locale": "en"
+    },
+    {
+      "id": "138bb2974e268742",
+      "source": "play_store",
+      "rating": 4,
+      "title": "",
+      "text": "server is slow.....else all good",
+      "date": "2025-01-04",
+      "app_version": "17.50",
+      "locale": "en"
+    },
+    {
+      "id": "1659b388a0aaf290",
+      "source": "play_store",
+      "rating": 5,
+      "title": "",
+      "text": "it's good beginner friendly i feel",
+      "date": "2024-12-12",
+      "app_version": "17.40",
+      "locale": "en"
+    },
+    {
+      "id": "33261158fc85f519",
+      "source": "play_store",
+      "rating": 1,
+      "title": "",
+      "text": "Bahut kharab app hai specially FnO ke liye call excaute hota hi nhi h target hit hone ke baad bhi mera bahut loss gya iske chakkar mai complaint bhi kiya but koi bhi problem solve nhi huaa",
+      "date": "2024-12-06",
+      "app_version": "17.40",
       "locale": "en"
     }
   ]
